@@ -1,8 +1,8 @@
-main > .container {
+main>.container {
   padding: 60px 15px 0;
 }
 
-main > .container-fluid {
+main>.container-fluid {
   padding-top: 60px;
 }
 
@@ -13,14 +13,14 @@ main > .container-fluid {
   width: 100%;
 }
 
-body > main {
+body>main {
   margin-top: 20px;
   margin-bottom: 60px;
 }
 
 .homeBG {
   width: 100%;
-  background: url(/img/GridBG.png);
+  background: url(./img/GridBG.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -28,12 +28,12 @@ body > main {
 }
 
 .homeText {
-    font-family: modesto-open-shadow, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: rgba(195, 255, 0);
+  font-family: modesto-open-shadow, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(195, 255, 0);
 }
 
-.minHeight{
+.minHeight {
   min-height: 80vh;
 }
